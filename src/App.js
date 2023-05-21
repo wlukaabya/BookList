@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar";
 import BookList from "./components/BookList";
 import NewBookForm from "./components/NewBookForm";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <BookContextProvider>
@@ -14,6 +14,6 @@ function App() {
       </BookContextProvider>
     </div>
   );
-}
+};
 
 export default App;
